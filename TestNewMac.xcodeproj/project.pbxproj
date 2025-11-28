@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		107715A22C326F970043A604 /* TestCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107715A02C326F970043A604 /* TestCollectionCell.swift */; };
-		107715A32C326F970043A604 /* TestCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 107715A12C326F970043A604 /* TestCollectionCell.xib */; };
+		10449DBA2CAA9D1B00761634 /* TestTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10449DB82CAA9D1B00761634 /* TestTableCell.swift */; };
+		10449DBB2CAA9D1B00761634 /* TestTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10449DB92CAA9D1B00761634 /* TestTableCell.xib */; };
+		10449DBD2CAA9D8400761634 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10449DBC2CAA9D8400761634 /* RoundView.swift */; };
+		104D5EC52E93E4BB00022BAE /* TestScrollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104D5EC42E93E4BB00022BAE /* TestScrollVC.swift */; };
 		10DA001F2C23EC9100D2D9FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA001E2C23EC9100D2D9FE /* AppDelegate.swift */; };
 		10DA00212C23EC9100D2D9FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA00202C23EC9100D2D9FE /* SceneDelegate.swift */; };
 		10DA00232C23EC9100D2D9FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA00222C23EC9100D2D9FE /* ViewController.swift */; };
 		10DA00262C23EC9100D2D9FE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 10DA00252C23EC9100D2D9FE /* Base */; };
 		10DA00282C23EC9200D2D9FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DA00272C23EC9200D2D9FE /* Assets.xcassets */; };
 		10DA002B2C23EC9200D2D9FE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 10DA002A2C23EC9200D2D9FE /* Base */; };
+		E98078A2B1D7736A564EA0B1 /* Pods_TestNewMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0827006FD1F401811B692FCB /* Pods_TestNewMac.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		107715A02C326F970043A604 /* TestCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionCell.swift; sourceTree = "<group>"; };
-		107715A12C326F970043A604 /* TestCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCollectionCell.xib; sourceTree = "<group>"; };
+		0827006FD1F401811B692FCB /* Pods_TestNewMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestNewMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10449DB82CAA9D1B00761634 /* TestTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableCell.swift; sourceTree = "<group>"; };
+		10449DB92CAA9D1B00761634 /* TestTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTableCell.xib; sourceTree = "<group>"; };
+		10449DBC2CAA9D8400761634 /* RoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		104D5EC42E93E4BB00022BAE /* TestScrollVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollVC.swift; sourceTree = "<group>"; };
 		10DA001B2C23EC9100D2D9FE /* TestNewMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestNewMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DA001E2C23EC9100D2D9FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10DA00202C23EC9100D2D9FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +34,8 @@
 		10DA00272C23EC9200D2D9FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10DA002A2C23EC9200D2D9FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10DA002C2C23EC9200D2D9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		430D050A2A3DD9FF42920EF3 /* Pods-TestNewMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNewMac.debug.xcconfig"; path = "Target Support Files/Pods-TestNewMac/Pods-TestNewMac.debug.xcconfig"; sourceTree = "<group>"; };
+		C81759D65BA35F5971950C23 /* Pods-TestNewMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNewMac.release.xcconfig"; path = "Target Support Files/Pods-TestNewMac/Pods-TestNewMac.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98078A2B1D7736A564EA0B1 /* Pods_TestNewMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +55,8 @@
 			children = (
 				10DA001D2C23EC9100D2D9FE /* TestNewMac */,
 				10DA001C2C23EC9100D2D9FE /* Products */,
+				BE4E02E075E6B0AF559AD4EC /* Pods */,
+				4D87A6286514FAD4276C2F8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,10 +78,29 @@
 				10DA00272C23EC9200D2D9FE /* Assets.xcassets */,
 				10DA00292C23EC9200D2D9FE /* LaunchScreen.storyboard */,
 				10DA002C2C23EC9200D2D9FE /* Info.plist */,
-				107715A02C326F970043A604 /* TestCollectionCell.swift */,
-				107715A12C326F970043A604 /* TestCollectionCell.xib */,
+				10449DB82CAA9D1B00761634 /* TestTableCell.swift */,
+				10449DB92CAA9D1B00761634 /* TestTableCell.xib */,
+				10449DBC2CAA9D8400761634 /* RoundView.swift */,
+				104D5EC42E93E4BB00022BAE /* TestScrollVC.swift */,
 			);
 			path = TestNewMac;
+			sourceTree = "<group>";
+		};
+		4D87A6286514FAD4276C2F8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0827006FD1F401811B692FCB /* Pods_TestNewMac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE4E02E075E6B0AF559AD4EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				430D050A2A3DD9FF42920EF3 /* Pods-TestNewMac.debug.xcconfig */,
+				C81759D65BA35F5971950C23 /* Pods-TestNewMac.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10DA00452C23EC9200D2D9FE /* Build configuration list for PBXNativeTarget "TestNewMac" */;
 			buildPhases = (
+				A8B96DF2D504BA9CE6411EEC /* [CP] Check Pods Manifest.lock */,
 				10DA00172C23EC9100D2D9FE /* Sources */,
 				10DA00182C23EC9100D2D9FE /* Frameworks */,
 				10DA00192C23EC9100D2D9FE /* Resources */,
+				F24BD8DD3973E49E16C5EFE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +165,58 @@
 			files = (
 				10DA00282C23EC9200D2D9FE /* Assets.xcassets in Resources */,
 				10DA002B2C23EC9200D2D9FE /* Base in Resources */,
+				10449DBB2CAA9D1B00761634 /* TestTableCell.xib in Resources */,
 				10DA00262C23EC9100D2D9FE /* Base in Resources */,
-				107715A32C326F970043A604 /* TestCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8B96DF2D504BA9CE6411EEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestNewMac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F24BD8DD3973E49E16C5EFE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestNewMac/Pods-TestNewMac-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestNewMac/Pods-TestNewMac-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestNewMac/Pods-TestNewMac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		10DA00172C23EC9100D2D9FE /* Sources */ = {
@@ -147,8 +225,10 @@
 			files = (
 				10DA00232C23EC9100D2D9FE /* ViewController.swift in Sources */,
 				10DA001F2C23EC9100D2D9FE /* AppDelegate.swift in Sources */,
+				10449DBA2CAA9D1B00761634 /* TestTableCell.swift in Sources */,
+				104D5EC52E93E4BB00022BAE /* TestScrollVC.swift in Sources */,
 				10DA00212C23EC9100D2D9FE /* SceneDelegate.swift in Sources */,
-				107715A22C326F970043A604 /* TestCollectionCell.swift in Sources */,
+				10449DBD2CAA9D8400761634 /* RoundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +291,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -234,6 +314,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -274,7 +355,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -289,24 +370,27 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		10DA00462C23EC9200D2D9FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430D050A2A3DD9FF42920EF3 /* Pods-TestNewMac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F6P8555ST;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestNewMac/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -315,26 +399,32 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abhang.goldmedal.TestNewMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		10DA00472C23EC9200D2D9FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81759D65BA35F5971950C23 /* Pods-TestNewMac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F6P8555ST;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestNewMac/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -343,9 +433,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abhang.goldmedal.TestNewMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

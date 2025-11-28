@@ -7,62 +7,118 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1ECEA6B12EE42C9721C9D2AC2FA868F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		20F3A474AB7664208A2060B6447AF117 /* Pods-TestNewMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAADBA4DFBF23DEBB73D57C68C4DBA87 /* Pods-TestNewMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */; };
-		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */; };
-		70A1960B0903D14F5D533C324F96DD03 /* Pods-TestNewMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C20E6374ACBA6E75C5D1C8440E96B13 /* Pods-TestNewMac-dummy.m */; };
-		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */; };
-		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */; };
-		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */; };
-		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */; };
-		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */; };
-		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */; };
-		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		152AC4546B5959F311DB94D3655FBE4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		1915AF8C8306C3799D0C1E0C2C2018D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB1DCA80207E2224E98E686881703D8 /* DropDown+Appearance.swift */; };
+		59B931DC1B4D3A9005B3EEBF1BEC00BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		62F5395DEBA7F3AEC676C16C78026A19 /* MGSwipeTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C34C40650AF3617E836FDB6851DAB21 /* MGSwipeTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DAFEBF7E876E5B8D593732F4BD849B4 /* DropDownCell.xib */; };
+		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377473C09910E5744CE6F3A668535EE /* DPDConstants.swift */; };
+		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813895A871018C391ADCC1D3BC4F5016 /* DropDown.swift */; };
+		84565815855ADD1EEAA286847CEFDF05 /* MGSwipeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 90007B0536CFA5069D2B32BE639CC8AA /* MGSwipeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		887CB0EF9D1268FACAE60DBFF1C85448 /* MTSlideToOpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9BE602CC548D9653694F7689298550 /* MTSlideToOpenView.swift */; };
+		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAA659E6C062E6F50A18BBD295D780 /* DPDKeyboardListener.swift */; };
+		8D2C2C1AD8AB886B1921B03CACFFEA6E /* MTSlideToOpen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A53C71C9BEFC035430341F17B235489 /* MTSlideToOpen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F4D57EF128CC3409463829D09E2799F /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AA02849FEBE69E7A3A8546588D9A74 /* MGSwipeTableCell.m */; };
+		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8C619CDA54E940DFDEF8F3BCB6CDEC /* DropDown-dummy.m */; };
+		94A7377DB045C59418FE14C98FBB2CA7 /* MGSwipeTableCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA9817A7C687BD07D97961767548E47 /* MGSwipeTableCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A36D69A44FBF96D0CE963C516671F74 /* DPDUIView+Extension.swift */; };
+		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C0B4B17C814E87EBB6EB255FBACC7D /* DropDownCell.swift */; };
+		C69A6B78F77A79C00D7E178AA79D676C /* Pods-TestNewMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C20E6374ACBA6E75C5D1C8440E96B13 /* Pods-TestNewMac-dummy.m */; };
+		C971D2F60CD176A97F8B283A5477809F /* MTSlideToOpen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D6D64F06F086E56804541D49CD8522 /* MTSlideToOpen-dummy.m */; };
+		D05090D23462A1BD409D086A9131BC94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FDA2542ECF779415D3E1B9723D61E59 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB9DA5CADF3F90FA206B46AC9A851BBD /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 60410C73104BFF37616AEE027A928CD1 /* MGSwipeButton.m */; };
+		EE1A335BAB0E5AA8CDD430D92FC70E4D /* Pods-TestNewMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAADBA4DFBF23DEBB73D57C68C4DBA87 /* Pods-TestNewMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F44634BF6688C3CE5213F6ABC2255875 /* MGSwipeTableCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C35C9F995A4721668B8BEE76D8C83596 /* MGSwipeTableCell-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DD86C24779B907A93C14A8690DC0D068 /* PBXContainerItemProxy */ = {
+		61546B4CEE9013ACD7B139549A821CCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
 			remoteInfo = DropDown;
 		};
+		778E8C72EA658AA42746A47CFA800C24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EEB7FC8FC3DC62BFD58C64EF0EDFF4B;
+			remoteInfo = MGSwipeTableCell;
+		};
+		C9B7892318CCE0F3B96BD3EAEEA01C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C3D0E6297FF2C251CA8411761B989A;
+			remoteInfo = MTSlideToOpen;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00C0B4B17C814E87EBB6EB255FBACC7D /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
 		014BE696A1D3ECA0F3B76B9780C93C83 /* Pods-TestNewMac-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestNewMac-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2F8A529C653A26F8D0B57E1CD7B2B5E6 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
-		2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
-		3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		0440E194D9B071443DE2E28204467744 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
+		25F18D1B6B5143BEF52BDC9EFD5CBE0A /* MGSwipeTableCell */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGSwipeTableCell; path = MGSwipeTableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AA02849FEBE69E7A3A8546588D9A74 /* MGSwipeTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGSwipeTableCell.m; path = MGSwipeTableCell/MGSwipeTableCell.m; sourceTree = "<group>"; };
+		2A36D69A44FBF96D0CE963C516671F74 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		2A97F0D6F26EE27714A251066FDCB91A /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		2BD4938ADF1560F6E591BCCBE6F8680D /* MGSwipeTableCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGSwipeTableCell.release.xcconfig; sourceTree = "<group>"; };
+		3AA9817A7C687BD07D97961767548E47 /* MGSwipeTableCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGSwipeTableCell-umbrella.h"; sourceTree = "<group>"; };
+		40023808D94B0DB3790D05BE97964D74 /* MTSlideToOpen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTSlideToOpen.debug.xcconfig; sourceTree = "<group>"; };
 		42AEF2622A62D0FA77798883AD2DBAFB /* Pods-TestNewMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestNewMac.release.xcconfig"; sourceTree = "<group>"; };
-		451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		730D85BE0320FD50EA665A82042E5742 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		4D3022FF5C2C57DF5F4D7EA9FC450F0C /* MGSwipeTableCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGSwipeTableCell.debug.xcconfig; sourceTree = "<group>"; };
+		60410C73104BFF37616AEE027A928CD1 /* MGSwipeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGSwipeButton.m; path = MGSwipeTableCell/MGSwipeButton.m; sourceTree = "<group>"; };
+		69D6D64F06F086E56804541D49CD8522 /* MTSlideToOpen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTSlideToOpen-dummy.m"; sourceTree = "<group>"; };
+		6FB1DCA80207E2224E98E686881703D8 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		6FDA2542ECF779415D3E1B9723D61E59 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		7377473C09910E5744CE6F3A668535EE /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		7ADAA659E6C062E6F50A18BBD295D780 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		813895A871018C391ADCC1D3BC4F5016 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		8C34C40650AF3617E836FDB6851DAB21 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGSwipeTableCell.h; path = MGSwipeTableCell/MGSwipeTableCell.h; sourceTree = "<group>"; };
 		8CC3129E66683ADCD4883B0F29C55281 /* Pods-TestNewMac */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestNewMac"; path = Pods_TestNewMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
-		93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		8DAFEBF7E876E5B8D593732F4BD849B4 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		90007B0536CFA5069D2B32BE639CC8AA /* MGSwipeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGSwipeButton.h; path = MGSwipeTableCell/MGSwipeButton.h; sourceTree = "<group>"; };
+		9411EBD8EE4DED175EE8A44DD8E9F8BA /* MGSwipeTableCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGSwipeTableCell-Info.plist"; sourceTree = "<group>"; };
+		9A53C71C9BEFC035430341F17B235489 /* MTSlideToOpen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTSlideToOpen-umbrella.h"; sourceTree = "<group>"; };
 		9B1E2827047C44964FDA881177AC30A4 /* Pods-TestNewMac-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestNewMac-frameworks.sh"; sourceTree = "<group>"; };
 		9B6725B782188F18CB76A740433F14E4 /* DropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
 		9C20E6374ACBA6E75C5D1C8440E96B13 /* Pods-TestNewMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestNewMac-dummy.m"; sourceTree = "<group>"; };
+		9D587F3F148FFDE43EF13F8D136EBC28 /* MTSlideToOpen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTSlideToOpen.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DCFB692A897452D6AE534424C942EBB /* Pods-TestNewMac-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestNewMac-Info.plist"; sourceTree = "<group>"; };
-		A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		A21F6ACB8A0C32E677D3693E4476F02A /* MTSlideToOpen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MTSlideToOpen.modulemap; sourceTree = "<group>"; };
 		AAADBA4DFBF23DEBB73D57C68C4DBA87 /* Pods-TestNewMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestNewMac-umbrella.h"; sourceTree = "<group>"; };
-		AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
-		DCD9DE78A7260CA1D999340CF0124D1D /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
-		E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
-		EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		C2CDDCCB1CABFBD1327679720A48CBAE /* MTSlideToOpen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTSlideToOpen-prefix.pch"; sourceTree = "<group>"; };
+		C35C9F995A4721668B8BEE76D8C83596 /* MGSwipeTableCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGSwipeTableCell-dummy.m"; sourceTree = "<group>"; };
+		CA41D836095E323E9F88376E34AA16ED /* MTSlideToOpen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MTSlideToOpen-Info.plist"; sourceTree = "<group>"; };
+		CA5F889BDC60061013CFDBBD8AE21CAF /* MTSlideToOpen */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MTSlideToOpen; path = MTSlideToOpen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8A423F17DA9343874F292BB2AD3B6B /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DB06CA7677021CA0F4256AF146A345D6 /* MGSwipeTableCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGSwipeTableCell.modulemap; sourceTree = "<group>"; };
+		DC8C619CDA54E940DFDEF8F3BCB6CDEC /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		DCD4DA7F40C94580EC73D4BA62BBDBF2 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EE4D743825E14E7907D4D6CDF9097331 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		F0DBACD0E8D22CC5C4B1D1A912E054D2 /* MGSwipeTableCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGSwipeTableCell-prefix.pch"; sourceTree = "<group>"; };
 		F3F1AF810B80496E4CF19656E89E731F /* Pods-TestNewMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestNewMac.debug.xcconfig"; sourceTree = "<group>"; };
-		F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		FC9BE602CC548D9653694F7689298550 /* MTSlideToOpenView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MTSlideToOpenView.swift; path = Source/MTSlideToOpenView.swift; sourceTree = "<group>"; };
 		FDCFBB2764B191C35D495EFBE3523209 /* Pods-TestNewMac-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestNewMac-acknowledgements.plist"; sourceTree = "<group>"; };
 		FFA8F1843EBC20BCD1F44E9CBE4C6837 /* Pods-TestNewMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestNewMac.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5551C7F4820880DBD1EF2C1EC8EADA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1915AF8C8306C3799D0C1E0C2C2018D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,71 +127,104 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF2D1E3B74E48EED74B4B92A38D0DA80 /* Frameworks */ = {
+		8FC89A918DCB186083A2240D80BD01C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ECEA6B12EE42C9721C9D2AC2FA868F6 /* Foundation.framework in Frameworks */,
+				152AC4546B5959F311DB94D3655FBE4D /* Foundation.framework in Frameworks */,
+				59B931DC1B4D3A9005B3EEBF1BEC00BF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8214129D6D619E915BE2AA38EF8981A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05090D23462A1BD409D086A9131BC94 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03D114B328A63C934E528549C2DCFE8D /* Support Files */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DCD9DE78A7260CA1D999340CF0124D1D /* DropDown.modulemap */,
-				AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */,
-				2F8A529C653A26F8D0B57E1CD7B2B5E6 /* DropDown-Info.plist */,
-				730D85BE0320FD50EA665A82042E5742 /* DropDown-prefix.pch */,
-				F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */,
-				E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */,
-				9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DropDown";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		057ED11B9D5977F85CBBBEF7C3E69DDB /* Pods */ = {
+		2E21BC866B00CFB4ADFD5D12BF8B4E77 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1340602042F82FB2F98974EB1B0C2387 /* DropDown */,
+				A21F6ACB8A0C32E677D3693E4476F02A /* MTSlideToOpen.modulemap */,
+				69D6D64F06F086E56804541D49CD8522 /* MTSlideToOpen-dummy.m */,
+				CA41D836095E323E9F88376E34AA16ED /* MTSlideToOpen-Info.plist */,
+				C2CDDCCB1CABFBD1327679720A48CBAE /* MTSlideToOpen-prefix.pch */,
+				9A53C71C9BEFC035430341F17B235489 /* MTSlideToOpen-umbrella.h */,
+				40023808D94B0DB3790D05BE97964D74 /* MTSlideToOpen.debug.xcconfig */,
+				9D587F3F148FFDE43EF13F8D136EBC28 /* MTSlideToOpen.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MTSlideToOpen";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		67AEB9E704E94FBB8772365F24068441 /* MTSlideToOpen */ = {
+			isa = PBXGroup;
+			children = (
+				FC9BE602CC548D9653694F7689298550 /* MTSlideToOpenView.swift */,
+				2E21BC866B00CFB4ADFD5D12BF8B4E77 /* Support Files */,
+			);
+			name = MTSlideToOpen;
+			path = MTSlideToOpen;
+			sourceTree = "<group>";
+		};
+		7328BFAE5F4DA196FF457A0CA1E71A6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDFA344EA671921FF9BB0D330066129D /* DropDown */,
+				92D529D9A415CEE23CF2C74AA89401DB /* MGSwipeTableCell */,
+				67AEB9E704E94FBB8772365F24068441 /* MTSlideToOpen */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		1340602042F82FB2F98974EB1B0C2387 /* DropDown */ = {
+		92D529D9A415CEE23CF2C74AA89401DB /* MGSwipeTableCell */ = {
 			isa = PBXGroup;
 			children = (
-				3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */,
-				8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */,
-				451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */,
-				2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */,
-				A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */,
-				93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */,
-				C59647B6F3C67ED72D999C113D892AF0 /* Resources */,
-				03D114B328A63C934E528549C2DCFE8D /* Support Files */,
+				90007B0536CFA5069D2B32BE639CC8AA /* MGSwipeButton.h */,
+				60410C73104BFF37616AEE027A928CD1 /* MGSwipeButton.m */,
+				8C34C40650AF3617E836FDB6851DAB21 /* MGSwipeTableCell.h */,
+				27AA02849FEBE69E7A3A8546588D9A74 /* MGSwipeTableCell.m */,
+				963E3E36BC7CF1E508C795A3312380F0 /* Support Files */,
 			);
-			name = DropDown;
-			path = DropDown;
+			name = MGSwipeTableCell;
+			path = MGSwipeTableCell;
 			sourceTree = "<group>";
 		};
-		3E690BF2A24A19D8B253432A0509493D /* Products */ = {
+		963E3E36BC7CF1E508C795A3312380F0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B6725B782188F18CB76A740433F14E4 /* DropDown */,
-				8CC3129E66683ADCD4883B0F29C55281 /* Pods-TestNewMac */,
+				DB06CA7677021CA0F4256AF146A345D6 /* MGSwipeTableCell.modulemap */,
+				C35C9F995A4721668B8BEE76D8C83596 /* MGSwipeTableCell-dummy.m */,
+				9411EBD8EE4DED175EE8A44DD8E9F8BA /* MGSwipeTableCell-Info.plist */,
+				F0DBACD0E8D22CC5C4B1D1A912E054D2 /* MGSwipeTableCell-prefix.pch */,
+				3AA9817A7C687BD07D97961767548E47 /* MGSwipeTableCell-umbrella.h */,
+				4D3022FF5C2C57DF5F4D7EA9FC450F0C /* MGSwipeTableCell.debug.xcconfig */,
+				2BD4938ADF1560F6E591BCCBE6F8680D /* MGSwipeTableCell.release.xcconfig */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/MGSwipeTableCell";
 			sourceTree = "<group>";
 		};
 		A3FED8D0A21BAF6FF9AFAF42E3387D4B /* Pods-TestNewMac */ = {
@@ -155,31 +244,41 @@
 			path = "Target Support Files/Pods-TestNewMac";
 			sourceTree = "<group>";
 		};
-		C59647B6F3C67ED72D999C113D892AF0 /* Resources */ = {
+		B07CC82F05880862FC3753E74420E09F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */,
+				EE4D743825E14E7907D4D6CDF9097331 /* DropDown.modulemap */,
+				DC8C619CDA54E940DFDEF8F3BCB6CDEC /* DropDown-dummy.m */,
+				2A97F0D6F26EE27714A251066FDCB91A /* DropDown-Info.plist */,
+				DCD4DA7F40C94580EC73D4BA62BBDBF2 /* DropDown-prefix.pch */,
+				6FDA2542ECF779415D3E1B9723D61E59 /* DropDown-umbrella.h */,
+				0440E194D9B071443DE2E28204467744 /* DropDown.debug.xcconfig */,
+				CB8A423F17DA9343874F292BB2AD3B6B /* DropDown.release.xcconfig */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		B550C2555FE406C04867B0F1E20E6B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6725B782188F18CB76A740433F14E4 /* DropDown */,
+				25F18D1B6B5143BEF52BDC9EFD5CBE0A /* MGSwipeTableCell */,
+				CA5F889BDC60061013CFDBBD8AE21CAF /* MTSlideToOpen */,
+				8CC3129E66683ADCD4883B0F29C55281 /* Pods-TestNewMac */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				057ED11B9D5977F85CBBBEF7C3E69DDB /* Pods */,
-				3E690BF2A24A19D8B253432A0509493D /* Products */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				7328BFAE5F4DA196FF457A0CA1E71A6A /* Pods */,
+				B550C2555FE406C04867B0F1E20E6B01 /* Products */,
 				D688027B22047CD02437C73A60DF3E66 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D688027B22047CD02437C73A60DF3E66 /* Targets Support Files */ = {
@@ -190,14 +289,46 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F4F2AEBE24D71600651509405903F556 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DAFEBF7E876E5B8D593732F4BD849B4 /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FDFA344EA671921FF9BB0D330066129D /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				7377473C09910E5744CE6F3A668535EE /* DPDConstants.swift */,
+				7ADAA659E6C062E6F50A18BBD295D780 /* DPDKeyboardListener.swift */,
+				2A36D69A44FBF96D0CE963C516671F74 /* DPDUIView+Extension.swift */,
+				813895A871018C391ADCC1D3BC4F5016 /* DropDown.swift */,
+				6FB1DCA80207E2224E98E686881703D8 /* DropDown+Appearance.swift */,
+				00C0B4B17C814E87EBB6EB255FBACC7D /* DropDownCell.swift */,
+				F4F2AEBE24D71600651509405903F556 /* Resources */,
+				B07CC82F05880862FC3753E74420E09F /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		458D7AC6C94F361878F80B5FA968E598 /* Headers */ = {
+		4841B1E94B94D85EE67A67CF41B261C2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20F3A474AB7664208A2060B6447AF117 /* Pods-TestNewMac-umbrella.h in Headers */,
+				EE1A335BAB0E5AA8CDD430D92FC70E4D /* Pods-TestNewMac-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6189666697425B91BC30C97605C825A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2C2C1AD8AB886B1921B03CACFFEA6E /* MTSlideToOpen-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,9 +340,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B46C51AFB73252D54D3E04E890CA261A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84565815855ADD1EEAA286847CEFDF05 /* MGSwipeButton.h in Headers */,
+				62F5395DEBA7F3AEC676C16C78026A19 /* MGSwipeTableCell.h in Headers */,
+				94A7377DB045C59418FE14C98FBB2CA7 /* MGSwipeTableCell-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1EEB7FC8FC3DC62BFD58C64EF0EDFF4B /* MGSwipeTableCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA06D0F82CE77FBB302547B7084CAC16 /* Build configuration list for PBXNativeTarget "MGSwipeTableCell" */;
+			buildPhases = (
+				B46C51AFB73252D54D3E04E890CA261A /* Headers */,
+				E5526883BCB8F7C5201F09B6A7692C0B /* Sources */,
+				5551C7F4820880DBD1EF2C1EC8EADA46 /* Frameworks */,
+				CFDA941B28ACCB62F5A369032B0B365B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGSwipeTableCell;
+			productName = MGSwipeTableCell;
+			productReference = 25F18D1B6B5143BEF52BDC9EFD5CBE0A /* MGSwipeTableCell */;
+			productType = "com.apple.product-type.framework";
+		};
+		88C3D0E6297FF2C251CA8411761B989A /* MTSlideToOpen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3DF4209CAE11C8B236FE252D5253DA /* Build configuration list for PBXNativeTarget "MTSlideToOpen" */;
+			buildPhases = (
+				6189666697425B91BC30C97605C825A4 /* Headers */,
+				A833E8CD5D49912630A62796ED5011BD /* Sources */,
+				8FC89A918DCB186083A2240D80BD01C0 /* Frameworks */,
+				B1B5464FD1FCFAB519DFC1178FC94325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTSlideToOpen;
+			productName = MTSlideToOpen;
+			productReference = CA5F889BDC60061013CFDBBD8AE21CAF /* MTSlideToOpen */;
+			productType = "com.apple.product-type.framework";
+		};
 		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */;
@@ -232,17 +409,19 @@
 		};
 		F272AB3714BA75D547C218E1981E2715 /* Pods-TestNewMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 887A28C018B5A1FC6B58DCFE3592F9EB /* Build configuration list for PBXNativeTarget "Pods-TestNewMac" */;
+			buildConfigurationList = 1804ED92FC0F7C348DAFD762F39F1C81 /* Build configuration list for PBXNativeTarget "Pods-TestNewMac" */;
 			buildPhases = (
-				458D7AC6C94F361878F80B5FA968E598 /* Headers */,
-				0972896A49923A4A3B680A83036E1384 /* Sources */,
-				CF2D1E3B74E48EED74B4B92A38D0DA80 /* Frameworks */,
-				18198BD45CFDB5E1DACC07A7A817E7D2 /* Resources */,
+				4841B1E94B94D85EE67A67CF41B261C2 /* Headers */,
+				DB49C120C07B3A402D6320DBB05FD80A /* Sources */,
+				F8214129D6D619E915BE2AA38EF8981A /* Frameworks */,
+				13DA81FB6AE1409C10146D2F8DDE7627 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				87B7E108F14292728EE682FE70A64733 /* PBXTargetDependency */,
+				1C9679654975ECE6BC4504BA4080CF0F /* PBXTargetDependency */,
+				0DA576833738B73F94756AFDB63D8409 /* PBXTargetDependency */,
+				70F2217FF6F49E78152D2B8A9C93D82C /* PBXTargetDependency */,
 			);
 			name = "Pods-TestNewMac";
 			productName = Pods_TestNewMac;
@@ -267,18 +446,34 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3E690BF2A24A19D8B253432A0509493D /* Products */;
+			productRefGroup = B550C2555FE406C04867B0F1E20E6B01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
+				1EEB7FC8FC3DC62BFD58C64EF0EDFF4B /* MGSwipeTableCell */,
+				88C3D0E6297FF2C251CA8411761B989A /* MTSlideToOpen */,
 				F272AB3714BA75D547C218E1981E2715 /* Pods-TestNewMac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18198BD45CFDB5E1DACC07A7A817E7D2 /* Resources */ = {
+		13DA81FB6AE1409C10146D2F8DDE7627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B5464FD1FCFAB519DFC1178FC94325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA941B28ACCB62F5A369032B0B365B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -296,14 +491,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0972896A49923A4A3B680A83036E1384 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				70A1960B0903D14F5D533C324F96DD03 /* Pods-TestNewMac-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		48864C435B3DB37698CF568C638CF98F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -318,19 +505,96 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A833E8CD5D49912630A62796ED5011BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C971D2F60CD176A97F8B283A5477809F /* MTSlideToOpen-dummy.m in Sources */,
+				887CB0EF9D1268FACAE60DBFF1C85448 /* MTSlideToOpenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB49C120C07B3A402D6320DBB05FD80A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69A6B78F77A79C00D7E178AA79D676C /* Pods-TestNewMac-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5526883BCB8F7C5201F09B6A7692C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9DA5CADF3F90FA206B46AC9A851BBD /* MGSwipeButton.m in Sources */,
+				8F4D57EF128CC3409463829D09E2799F /* MGSwipeTableCell.m in Sources */,
+				F44634BF6688C3CE5213F6ABC2255875 /* MGSwipeTableCell-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		87B7E108F14292728EE682FE70A64733 /* PBXTargetDependency */ = {
+		0DA576833738B73F94756AFDB63D8409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGSwipeTableCell;
+			target = 1EEB7FC8FC3DC62BFD58C64EF0EDFF4B /* MGSwipeTableCell */;
+			targetProxy = 778E8C72EA658AA42746A47CFA800C24 /* PBXContainerItemProxy */;
+		};
+		1C9679654975ECE6BC4504BA4080CF0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DropDown;
 			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
-			targetProxy = DD86C24779B907A93C14A8690DC0D068 /* PBXContainerItemProxy */;
+			targetProxy = 61546B4CEE9013ACD7B139549A821CCE /* PBXContainerItemProxy */;
+		};
+		70F2217FF6F49E78152D2B8A9C93D82C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTSlideToOpen;
+			target = 88C3D0E6297FF2C251CA8411761B989A /* MTSlideToOpen */;
+			targetProxy = C9B7892318CCE0F3B96BD3EAEEA01C3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6E1D64A612480B73E15721A35CF3EA07 /* Debug */ = {
+		01E81D71CE440AB60101A9ED816FC0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42AEF2622A62D0FA77798883AD2DBAFB /* Pods-TestNewMac.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestNewMac/Pods-TestNewMac-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestNewMac/Pods-TestNewMac.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0C689B887645FB921095D1B406D560F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F3F1AF810B80496E4CF19656E89E731F /* Pods-TestNewMac.debug.xcconfig */;
 			buildSettings = {
@@ -366,6 +630,40 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		2A9A6E35A036DDAC2DF3D90D2DA57E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D587F3F148FFDE43EF13F8D136EBC28 /* MTSlideToOpen.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MTSlideToOpen/MTSlideToOpen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTSlideToOpen/MTSlideToOpen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MTSlideToOpen/MTSlideToOpen.modulemap";
+				PRODUCT_MODULE_NAME = MTSlideToOpen;
+				PRODUCT_NAME = MTSlideToOpen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -495,9 +793,45 @@
 			};
 			name = Release;
 		};
+		A88945389940ABBFE19BEF0D5BF75898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD4938ADF1560F6E591BCCBE6F8680D /* MGSwipeTableCell.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell.modulemap";
+				PRODUCT_MODULE_NAME = MGSwipeTableCell;
+				PRODUCT_NAME = MGSwipeTableCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C24518E891FAA59668669823639498EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */;
+			baseConfigurationReference = CB8A423F17DA9343874F292BB2AD3B6B /* DropDown.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -510,7 +844,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -530,9 +864,77 @@
 			};
 			name = Release;
 		};
+		CC22134FDC25D055CBF1850F4F54C089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40023808D94B0DB3790D05BE97964D74 /* MTSlideToOpen.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MTSlideToOpen/MTSlideToOpen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTSlideToOpen/MTSlideToOpen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MTSlideToOpen/MTSlideToOpen.modulemap";
+				PRODUCT_MODULE_NAME = MTSlideToOpen;
+				PRODUCT_NAME = MTSlideToOpen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3B88669FC98E7106855364FA0335386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D3022FF5C2C57DF5F4D7EA9FC450F0C /* MGSwipeTableCell.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell.modulemap";
+				PRODUCT_MODULE_NAME = MGSwipeTableCell;
+				PRODUCT_NAME = MGSwipeTableCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */;
+			baseConfigurationReference = 0440E194D9B071443DE2E28204467744 /* DropDown.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -545,7 +947,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -564,47 +966,18 @@
 			};
 			name = Debug;
 		};
-		E876DBAC051C2FEBAA43DA4F16630E2A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42AEF2622A62D0FA77798883AD2DBAFB /* Pods-TestNewMac.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestNewMac/Pods-TestNewMac-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestNewMac/Pods-TestNewMac.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1804ED92FC0F7C348DAFD762F39F1C81 /* Build configuration list for PBXNativeTarget "Pods-TestNewMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C689B887645FB921095D1B406D560F2 /* Debug */,
+				01E81D71CE440AB60101A9ED816FC0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -623,11 +996,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		887A28C018B5A1FC6B58DCFE3592F9EB /* Build configuration list for PBXNativeTarget "Pods-TestNewMac" */ = {
+		BD3DF4209CAE11C8B236FE252D5253DA /* Build configuration list for PBXNativeTarget "MTSlideToOpen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E1D64A612480B73E15721A35CF3EA07 /* Debug */,
-				E876DBAC051C2FEBAA43DA4F16630E2A /* Release */,
+				CC22134FDC25D055CBF1850F4F54C089 /* Debug */,
+				2A9A6E35A036DDAC2DF3D90D2DA57E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA06D0F82CE77FBB302547B7084CAC16 /* Build configuration list for PBXNativeTarget "MGSwipeTableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B88669FC98E7106855364FA0335386 /* Debug */,
+				A88945389940ABBFE19BEF0D5BF75898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

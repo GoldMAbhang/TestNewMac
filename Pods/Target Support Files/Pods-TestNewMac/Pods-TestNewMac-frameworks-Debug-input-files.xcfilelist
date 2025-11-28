@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-TestNewMac/Pods-TestNewMac-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework
+${BUILT_PRODUCTS_DIR}/MGSwipeTableCell/MGSwipeTableCell.framework
+${BUILT_PRODUCTS_DIR}/MTSlideToOpen/MTSlideToOpen.framework

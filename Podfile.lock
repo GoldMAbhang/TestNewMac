@@ -1,0 +1,24 @@
+PODS:
+  - DropDown (2.3.13)
+  - MGSwipeTableCell (1.6.14)
+  - MTSlideToOpen (1.5.1)
+
+DEPENDENCIES:
+  - DropDown
+  - MGSwipeTableCell
+  - MTSlideToOpen
+
+SPEC REPOS:
+  trunk:
+    - DropDown
+    - MGSwipeTableCell
+    - MTSlideToOpen
+
+SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  MGSwipeTableCell: d99ed6466f393b71cd488c6f798ba112ff5d1d01
+  MTSlideToOpen: dedc9abf1e377fef40544b84e5590d4981055030
+
+PODFILE CHECKSUM: 6d7559cbcee5f3f4945925ac84bfb22710a77885
+
+COCOAPODS: 1.15.2
