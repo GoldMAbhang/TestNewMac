@@ -7,8 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< Updated upstream
 		107715A22C326F970043A604 /* TestCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107715A02C326F970043A604 /* TestCollectionCell.swift */; };
 		107715A32C326F970043A604 /* TestCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 107715A12C326F970043A604 /* TestCollectionCell.xib */; };
+=======
+		10449DBA2CAA9D1B00761634 /* TestTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10449DB82CAA9D1B00761634 /* TestTableCell.swift */; };
+		10449DBB2CAA9D1B00761634 /* TestTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10449DB92CAA9D1B00761634 /* TestTableCell.xib */; };
+		10449DBD2CAA9D8400761634 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10449DBC2CAA9D8400761634 /* RoundView.swift */; };
+		104C74B12F695D330011CA43 /* TimelineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C74B02F695D330011CA43 /* TimelineVC.swift */; };
+		104C74B52F695D810011CA43 /* TimelineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C74B42F695D810011CA43 /* TimelineCell.swift */; };
+		104D5EC52E93E4BB00022BAE /* TestScrollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104D5EC42E93E4BB00022BAE /* TestScrollVC.swift */; };
+		106183E82F4EF8140091E570 /* ThreeSixtyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106183E72F4EF8140091E570 /* ThreeSixtyVC.swift */; };
+		1086170A2F4DC0FE006D282A /* ThreeDVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108617092F4DC0FE006D282A /* ThreeDVC.swift */; };
+		1086170D2F4DC169006D282A /* ThreeDPopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1086170B2F4DC169006D282A /* ThreeDPopUp.storyboard */; };
+		1086170E2F4DC169006D282A /* ThreeDPopUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1086170C2F4DC169006D282A /* ThreeDPopUpController.swift */; };
+		108617102F4DC3C1006D282A /* TestSceneKit.scn in Resources */ = {isa = PBXBuildFile; fileRef = 1086170F2F4DC3C1006D282A /* TestSceneKit.scn */; };
+		108617122F4DC539006D282A /* TestScene2.scn in Resources */ = {isa = PBXBuildFile; fileRef = 108617112F4DC539006D282A /* TestScene2.scn */; };
+		108617162F4DCCCB006D282A /* spritedemo.sks in Resources */ = {isa = PBXBuildFile; fileRef = 108617152F4DCCCB006D282A /* spritedemo.sks */; };
+		108617182F4DCD10006D282A /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 108617172F4DCD10006D282A /* MyScene.sks */; };
+		1086171A2F4DCFDE006D282A /* MATRIX_SURFACE_02_GLB.glb in Resources */ = {isa = PBXBuildFile; fileRef = 108617192F4DCFDE006D282A /* MATRIX_SURFACE_02_GLB.glb */; };
+		1086171D2F4DE0FD006D282A /* SwiftGLTF in Frameworks */ = {isa = PBXBuildFile; productRef = 1086171C2F4DE0FD006D282A /* SwiftGLTF */; };
+		1086171F2F4DE625006D282A /* MATRIX_SURFACE_02_GLB.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1086171E2F4DE625006D282A /* MATRIX_SURFACE_02_GLB.usdz */; };
+		108617212F4DE65E006D282A /* MATRIX_SURFACE_02_GLB.scn in Resources */ = {isa = PBXBuildFile; fileRef = 108617202F4DE65E006D282A /* MATRIX_SURFACE_02_GLB.scn */; };
+		108617232F4DEE00006D282A /* ferndale_studio_01_4k.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 108617222F4DEE00006D282A /* ferndale_studio_01_4k.hdr */; };
+>>>>>>> Stashed changes
 		10DA001F2C23EC9100D2D9FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA001E2C23EC9100D2D9FE /* AppDelegate.swift */; };
 		10DA00212C23EC9100D2D9FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA00202C23EC9100D2D9FE /* SceneDelegate.swift */; };
 		10DA00232C23EC9100D2D9FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA00222C23EC9100D2D9FE /* ViewController.swift */; };
@@ -18,8 +40,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< Updated upstream
 		107715A02C326F970043A604 /* TestCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionCell.swift; sourceTree = "<group>"; };
 		107715A12C326F970043A604 /* TestCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCollectionCell.xib; sourceTree = "<group>"; };
+=======
+		0827006FD1F401811B692FCB /* Pods_TestNewMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestNewMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10449DB82CAA9D1B00761634 /* TestTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableCell.swift; sourceTree = "<group>"; };
+		10449DB92CAA9D1B00761634 /* TestTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTableCell.xib; sourceTree = "<group>"; };
+		10449DBC2CAA9D8400761634 /* RoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		104C74B02F695D330011CA43 /* TimelineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineVC.swift; sourceTree = "<group>"; };
+		104C74B42F695D810011CA43 /* TimelineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineCell.swift; sourceTree = "<group>"; };
+		104D5EC42E93E4BB00022BAE /* TestScrollVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollVC.swift; sourceTree = "<group>"; };
+		106183E72F4EF8140091E570 /* ThreeSixtyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSixtyVC.swift; sourceTree = "<group>"; };
+		108617092F4DC0FE006D282A /* ThreeDVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDVC.swift; sourceTree = "<group>"; };
+		1086170B2F4DC169006D282A /* ThreeDPopUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ThreeDPopUp.storyboard; sourceTree = "<group>"; };
+		1086170C2F4DC169006D282A /* ThreeDPopUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDPopUpController.swift; sourceTree = "<group>"; };
+		1086170F2F4DC3C1006D282A /* TestSceneKit.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = TestSceneKit.scn; sourceTree = "<group>"; };
+		108617112F4DC539006D282A /* TestScene2.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = TestScene2.scn; sourceTree = "<group>"; };
+		108617152F4DCCCB006D282A /* spritedemo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = spritedemo.sks; sourceTree = "<group>"; };
+		108617172F4DCD10006D282A /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		108617192F4DCFDE006D282A /* MATRIX_SURFACE_02_GLB.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = MATRIX_SURFACE_02_GLB.glb; sourceTree = "<group>"; };
+		1086171E2F4DE625006D282A /* MATRIX_SURFACE_02_GLB.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = MATRIX_SURFACE_02_GLB.usdz; sourceTree = "<group>"; };
+		108617202F4DE65E006D282A /* MATRIX_SURFACE_02_GLB.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = MATRIX_SURFACE_02_GLB.scn; sourceTree = "<group>"; };
+		108617222F4DEE00006D282A /* ferndale_studio_01_4k.hdr */ = {isa = PBXFileReference; lastKnownFileType = file; path = ferndale_studio_01_4k.hdr; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		10DA001B2C23EC9100D2D9FE /* TestNewMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestNewMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DA001E2C23EC9100D2D9FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10DA00202C23EC9100D2D9FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +79,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< Updated upstream
+=======
+				E98078A2B1D7736A564EA0B1 /* Pods_TestNewMac.framework in Frameworks */,
+				1086171D2F4DE0FD006D282A /* SwiftGLTF in Frameworks */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,15 +109,36 @@
 		10DA001D2C23EC9100D2D9FE /* TestNewMac */ = {
 			isa = PBXGroup;
 			children = (
+				108617222F4DEE00006D282A /* ferndale_studio_01_4k.hdr */,
+				108617192F4DCFDE006D282A /* MATRIX_SURFACE_02_GLB.glb */,
+				1086171E2F4DE625006D282A /* MATRIX_SURFACE_02_GLB.usdz */,
+				108617202F4DE65E006D282A /* MATRIX_SURFACE_02_GLB.scn */,
+				108617092F4DC0FE006D282A /* ThreeDVC.swift */,
+				1086170B2F4DC169006D282A /* ThreeDPopUp.storyboard */,
+				1086170C2F4DC169006D282A /* ThreeDPopUpController.swift */,
 				10DA001E2C23EC9100D2D9FE /* AppDelegate.swift */,
 				10DA00202C23EC9100D2D9FE /* SceneDelegate.swift */,
 				10DA00222C23EC9100D2D9FE /* ViewController.swift */,
+				106183E72F4EF8140091E570 /* ThreeSixtyVC.swift */,
 				10DA00242C23EC9100D2D9FE /* Main.storyboard */,
 				10DA00272C23EC9200D2D9FE /* Assets.xcassets */,
 				10DA00292C23EC9200D2D9FE /* LaunchScreen.storyboard */,
 				10DA002C2C23EC9200D2D9FE /* Info.plist */,
+<<<<<<< Updated upstream
 				107715A02C326F970043A604 /* TestCollectionCell.swift */,
 				107715A12C326F970043A604 /* TestCollectionCell.xib */,
+=======
+				10449DB82CAA9D1B00761634 /* TestTableCell.swift */,
+				10449DB92CAA9D1B00761634 /* TestTableCell.xib */,
+				10449DBC2CAA9D8400761634 /* RoundView.swift */,
+				104D5EC42E93E4BB00022BAE /* TestScrollVC.swift */,
+				1086170F2F4DC3C1006D282A /* TestSceneKit.scn */,
+				108617112F4DC539006D282A /* TestScene2.scn */,
+				108617152F4DCCCB006D282A /* spritedemo.sks */,
+				108617172F4DCD10006D282A /* MyScene.sks */,
+				104C74B02F695D330011CA43 /* TimelineVC.swift */,
+				104C74B42F695D810011CA43 /* TimelineCell.swift */,
+>>>>>>> Stashed changes
 			);
 			path = TestNewMac;
 			sourceTree = "<group>";
@@ -117,6 +187,9 @@
 				Base,
 			);
 			mainGroup = 10DA00122C23EC9100D2D9FE;
+			packageReferences = (
+				1086171B2F4DE0FD006D282A /* XCRemoteSwiftPackageReference "SwiftGLTF" */,
+			);
 			productRefGroup = 10DA001C2C23EC9100D2D9FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -131,10 +204,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108617232F4DEE00006D282A /* ferndale_studio_01_4k.hdr in Resources */,
 				10DA00282C23EC9200D2D9FE /* Assets.xcassets in Resources */,
+				108617212F4DE65E006D282A /* MATRIX_SURFACE_02_GLB.scn in Resources */,
+				108617162F4DCCCB006D282A /* spritedemo.sks in Resources */,
+				1086171A2F4DCFDE006D282A /* MATRIX_SURFACE_02_GLB.glb in Resources */,
+				108617122F4DC539006D282A /* TestScene2.scn in Resources */,
 				10DA002B2C23EC9200D2D9FE /* Base in Resources */,
+<<<<<<< Updated upstream
 				10DA00262C23EC9100D2D9FE /* Base in Resources */,
 				107715A32C326F970043A604 /* TestCollectionCell.xib in Resources */,
+=======
+				108617102F4DC3C1006D282A /* TestSceneKit.scn in Resources */,
+				10449DBB2CAA9D1B00761634 /* TestTableCell.xib in Resources */,
+				1086170D2F4DC169006D282A /* ThreeDPopUp.storyboard in Resources */,
+				108617182F4DCD10006D282A /* MyScene.sks in Resources */,
+				10DA00262C23EC9100D2D9FE /* Base in Resources */,
+				1086171F2F4DE625006D282A /* MATRIX_SURFACE_02_GLB.usdz in Resources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +234,20 @@
 			files = (
 				10DA00232C23EC9100D2D9FE /* ViewController.swift in Sources */,
 				10DA001F2C23EC9100D2D9FE /* AppDelegate.swift in Sources */,
+<<<<<<< Updated upstream
 				10DA00212C23EC9100D2D9FE /* SceneDelegate.swift in Sources */,
 				107715A22C326F970043A604 /* TestCollectionCell.swift in Sources */,
+=======
+				10449DBA2CAA9D1B00761634 /* TestTableCell.swift in Sources */,
+				104C74B12F695D330011CA43 /* TimelineVC.swift in Sources */,
+				1086170A2F4DC0FE006D282A /* ThreeDVC.swift in Sources */,
+				104C74B52F695D810011CA43 /* TimelineCell.swift in Sources */,
+				106183E82F4EF8140091E570 /* ThreeSixtyVC.swift in Sources */,
+				104D5EC52E93E4BB00022BAE /* TestScrollVC.swift in Sources */,
+				10DA00212C23EC9100D2D9FE /* SceneDelegate.swift in Sources */,
+				1086170E2F4DC169006D282A /* ThreeDPopUpController.swift in Sources */,
+				10449DBD2CAA9D8400761634 /* RoundView.swift in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,9 +404,14 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+<<<<<<< Updated upstream
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+=======
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+>>>>>>> Stashed changes
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +437,14 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+<<<<<<< Updated upstream
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+=======
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+>>>>>>> Stashed changes
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,6 +480,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1086171B2F4DE0FD006D282A /* XCRemoteSwiftPackageReference "SwiftGLTF" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/schwa/SwiftGLTF.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1086171C2F4DE0FD006D282A /* SwiftGLTF */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1086171B2F4DE0FD006D282A /* XCRemoteSwiftPackageReference "SwiftGLTF" */;
+			productName = SwiftGLTF;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 10DA00132C23EC9100D2D9FE /* Project object */;
 }

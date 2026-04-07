@@ -7,5 +7,11 @@ target 'TestNewMac' do
 pod 'DropDown'
  
   # Pods for TestNewMac
+<<<<<<< Updated upstream
+=======
+	pod 'MTSlideToOpen'
+	pod 'MGSwipeTableCell'
+	pod 'TimelineTableViewCell'
+>>>>>>> Stashed changes
 
 end
